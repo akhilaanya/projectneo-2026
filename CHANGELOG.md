@@ -67,6 +67,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - (not complete yet) standard deviations of impact probabilities plotting
+- Created a slides presentation for the project
+- Diameter and velocity vs IP for individual and shared data
 
 ### Changed
 
