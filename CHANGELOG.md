@@ -23,7 +23,7 @@ All notable changes to this project will be documented in this file.
 ## 2025-02-18
  
 ### Added
-Sections in main_jackey.ipynb are separated and stored as individual notebook files
+- Sections in main_jackey.ipynb are separated and stored as individual notebook files
 - README
 - date_comparsion_sum_sets.ipynb
 - date_comparsion_unique_sets.ipynb
@@ -38,3 +38,38 @@ Sections in main_jackey.ipynb are separated and stored as individual notebook fi
 
 ### Fixed
 - Typo in changelog
+
+## 2025-02-23
+ 
+### Added
+- 2010RF12 close approaches prediction and target plane plots
+- ESA impact velocities vs impact probabilities plot
+ 
+### Changed
+- None
+
+### Fixed
+- Small fixes
+
+## 2025-02-25
+ 
+### Added
+- ESA Vimp to Vinf calculation
+- NASA and ESA Vinf vs IPcum plot
+ 
+### Changed
+- 2010rf12_close_approaches, fixed coordinate errors.
+
+### Fixed
+- None
+
+## 2025-02-25
+
+### Added
+- (not complete yet) standard deviations of impact probabilities plotting
+- Created a slides presentation for the project
+- Diameter and velocity vs IP for individual and shared data
+
+### Changed
+
+### Fixed
