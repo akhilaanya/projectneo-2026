@@ -75,7 +75,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 ## 2025-03-01
- 
+
 ### Added
 - 2022SD9 close approach
 - Apophis close approach
