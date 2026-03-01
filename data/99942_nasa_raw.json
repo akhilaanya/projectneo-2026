@@ -1,0 +1,343 @@
+{
+    "signature": {
+        "source": "NASA/JPL Small-Body Database (SBDB) API",
+        "version": "1.3"
+    },
+    "object": {
+        "kind": "an",
+        "des": "99942",
+        "neo": true,
+        "pha": true,
+        "orbit_class": {
+            "name": "Aten",
+            "code": "ATE"
+        },
+        "shortname": "99942 Apophis",
+        "orbit_id": "220",
+        "prefix": null,
+        "spkid": "20099942",
+        "fullname": "99942 Apophis (2004 MN4)"
+    },
+    "orbit": {
+        "model_pars": [
+            {
+                "sigma": "4.892E-13",
+                "kind": "EST",
+                "value": "5.E-13",
+                "desc": "non-gravitational radial acceleration parameter",
+                "title": "non-grav. radial accel.",
+                "name": "A1",
+                "units": "au/d^2",
+                "n": 1
+            },
+            {
+                "title": "non-grav. transverse accel.",
+                "name": "A2",
+                "units": "au/d^2",
+                "n": 2,
+                "sigma": "1.859E-16",
+                "kind": "EST",
+                "value": "-2.901766637153165E-14",
+                "desc": "non-gravitational transverse acceleration parameter"
+            },
+            {
+                "n": 0,
+                "units": null,
+                "title": "normalizing factor",
+                "name": "ALN",
+                "desc": "normalizing factor [default 0.1112620426]",
+                "value": "1.",
+                "kind": "SET",
+                "sigma": null
+            },
+            {
+                "title": "non-grav. model exp. k",
+                "name": "NK",
+                "n": 0,
+                "units": null,
+                "kind": "SET",
+                "sigma": null,
+                "desc": "non-grav. model constant, exponent k [default 4.6142]",
+                "value": "0."
+            },
+            {
+                "desc": "non-grav. model constant, exponent m [default 2.15]",
+                "value": "2.",
+                "kind": "SET",
+                "sigma": null,
+                "n": 0,
+                "units": null,
+                "title": "non-grav. model exp. m",
+                "name": "NM"
+            },
+            {
+                "kind": "SET",
+                "sigma": null,
+                "desc": "normalizing distance, au [default 2.808 au]",
+                "value": "1.",
+                "name": "R0",
+                "title": "normalizing distance",
+                "n": 0,
+                "units": "au"
+            }
+        ],
+        "epoch": "2461000.5",
+        "first_obs": "2004-03-15",
+        "n_dop_obs_used": 30,
+        "data_arc": "6599",
+        "soln_date": "2024-06-25 10:48:08",
+        "two_body": null,
+        "n_del_obs_used": 20,
+        "n_obs_used": 7370,
+        "last_obs": "2022-04-09",
+        "rms": ".25657",
+        "moid": ".000360605",
+        "condition_code": "0",
+        "pe_used": "DE441",
+        "source": "JPL",
+        "covariance": {
+            "labels": [
+                "e",
+                "q",
+                "tp",
+                "node",
+                "peri",
+                "i",
+                "A1",
+                "A2"
+            ],
+            "epoch": "2459215.5",
+            "elements": [
+                {
+                    "name": "e",
+                    "title": "eccentricity",
+                    "label": "e",
+                    "units": null,
+                    "sigma": 1.57044261144172e-09,
+                    "value": ".1915216893501022"
+                },
+                {
+                    "units": "au",
+                    "label": "q",
+                    "title": "perihelion distance",
+                    "name": "q",
+                    "value": ".7458270478466523",
+                    "sigma": 2.6379998036687e-09
+                },
+                {
+                    "title": "time of perihelion passage",
+                    "name": "tp",
+                    "units": "TDB",
+                    "label": "tp",
+                    "sigma": 6.49530087949757e-07,
+                    "value": "2459101.039422462638"
+                },
+                {
+                    "title": "longitude of the ascending node",
+                    "name": "om",
+                    "units": "deg",
+                    "label": "node",
+                    "sigma": 3.06869659837637e-06,
+                    "value": "204.0389272089208"
+                },
+                {
+                    "value": "126.6520518368553",
+                    "sigma": 3.29825465123801e-06,
+                    "label": "peri",
+                    "units": "deg",
+                    "title": "argument of perihelion",
+                    "name": "w"
+                },
+                {
+                    "sigma": 9.88350261889291e-08,
+                    "value": "3.336751320066756",
+                    "name": "i",
+                    "title": "inclination",
+                    "units": "deg",
+                    "label": "i"
+                }
+            ],
+            "data": [
+                [
+                    "2.466289995831874E-18",
+                    "-3.913592780937238E-18",
+                    "7.757932505796077E-16",
+                    "-3.22408300681425E-16",
+                    "7.187612585868869E-16",
+                    "9.122036804836642E-17",
+                    "5.764057863827892E-22",
+                    "-1.141409461454187E-25"
+                ],
+                [
+                    "-3.913592780937238E-18",
+                    "6.959042964156077E-18",
+                    "-1.046818639552038E-15",
+                    "5.058392408666831E-16",
+                    "-6.93430608977809E-16",
+                    "-1.734628443049811E-16",
+                    "-1.194385611971495E-21",
+                    "1.458005934304423E-25"
+                ],
+                [
+                    "7.757932505796077E-16",
+                    "-1.046818639552038E-15",
+                    "4.218893351520189E-13",
+                    "-9.236553959690934E-13",
+                    "1.250494068862661E-12",
+                    "4.691369756705971E-14",
+                    "1.122889616701134E-19",
+                    "-6.287014843682339E-23"
+                ],
+                [
+                    "-3.22408300681425E-16",
+                    "5.058392408666831E-16",
+                    "-9.236553959690934E-13",
+                    "9.416898812886718E-12",
+                    "-9.948271827759329E-12",
+                    "-1.919794432857885E-13",
+                    "-7.577152916592086E-20",
+                    "1.494798222650796E-22"
+                ],
+                [
+                    "7.187612585868869E-16",
+                    "-6.93430608977809E-16",
+                    "1.250494068862661E-12",
+                    "-9.948271827759329E-12",
+                    "1.087848374441314E-11",
+                    "2.080775379089856E-13",
+                    "2.618521572100388E-21",
+                    "-2.051564374229492E-22"
+                ],
+                [
+                    "9.122036804836642E-17",
+                    "-1.734628443049811E-16",
+                    "4.691369756705971E-14",
+                    "-1.919794432857885E-13",
+                    "2.080775379089856E-13",
+                    "9.768362401766293E-15",
+                    "3.195067777241173E-20",
+                    "-6.306883097504853E-24"
+                ],
+                [
+                    "5.764057863827892E-22",
+                    "-1.194385611971495E-21",
+                    "1.122889616701134E-19",
+                    "-7.577152916592086E-20",
+                    "2.618521572100388E-21",
+                    "3.195067777241173E-20",
+                    "2.393450071872228E-25",
+                    "-1.185825818487353E-29"
+                ],
+                [
+                    "-1.141409461454187E-25",
+                    "1.458005934304423E-25",
+                    "-6.287014843682339E-23",
+                    "1.494798222650796E-22",
+                    "-2.051564374229492E-22",
+                    "-6.306883097504853E-24",
+                    "-1.185825818487353E-29",
+                    "3.456944569670061E-32"
+                ]
+            ]
+        },
+        "equinox": "J2000",
+        "producer": "Davide Farnocchia",
+        "comment": null,
+        "t_jup": "6.466",
+        "moid_jup": "4.12263",
+        "not_valid_before": null,
+        "sb_used": "SB441-N16",
+        "not_valid_after": null,
+        "elements": [
+            {
+                "units": null,
+                "label": "e",
+                "name": "e",
+                "title": "eccentricity",
+                "value": ".1911663355386932",
+                "sigma": "1.3149E-9"
+            },
+            {
+                "title": "semi-major axis",
+                "name": "a",
+                "label": "a",
+                "units": "au",
+                "sigma": "2.4147E-9",
+                "value": ".9223803173917017"
+            },
+            {
+                "value": ".7460522521429133",
+                "sigma": "1.5797E-9",
+                "units": "au",
+                "label": "q",
+                "name": "q",
+                "title": "perihelion distance"
+            },
+            {
+                "value": "3.340958441017069",
+                "sigma": "9.9017E-8",
+                "units": "deg",
+                "label": "i",
+                "title": "inclination; angle with respect to x-y ecliptic plane",
+                "name": "i"
+            },
+            {
+                "value": "203.8996515621043",
+                "sigma": "3.0657E-6",
+                "label": "node",
+                "units": "deg",
+                "name": "om",
+                "title": "longitude of the ascending node"
+            },
+            {
+                "sigma": "3.3837E-6",
+                "value": "126.6728325163065",
+                "name": "w",
+                "title": "argument of perihelion",
+                "label": "peri",
+                "units": "deg"
+            },
+            {
+                "value": "312.8054663584516",
+                "sigma": "8.2647E-7",
+                "label": "M",
+                "units": "deg",
+                "title": "mean anomaly",
+                "name": "ma"
+            },
+            {
+                "label": "tp",
+                "units": "TDB",
+                "name": "tp",
+                "title": "time of perihelion passage",
+                "value": "2461042.918242006079",
+                "sigma": "6.2062E-7"
+            },
+            {
+                "sigma": "1.2706E-6",
+                "value": "323.5664375491271",
+                "name": "per",
+                "title": "sidereal orbital period",
+                "units": "d",
+                "label": "period"
+            },
+            {
+                "title": "mean motion",
+                "name": "n",
+                "label": "n",
+                "units": "deg/d",
+                "sigma": "4.3691E-9",
+                "value": "1.11259994308075"
+            },
+            {
+                "units": "au",
+                "label": "Q",
+                "name": "ad",
+                "title": "aphelion distance",
+                "value": "1.09870838264049",
+                "sigma": "2.8763E-9"
+            }
+        ],
+        "orbit_id": "220"
+    }
+}
