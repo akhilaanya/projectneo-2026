@@ -63,6 +63,17 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - None
 
+## 2025-02-25
+
+### Added
+- (not complete yet) standard deviations of impact probabilities plotting
+- Created a slides presentation for the project
+- Diameter and velocity vs IP for individual and shared data
+
+### Changed
+
+### Fixed
+
 ## 2025-03-01
  
 ### Added

@@ -1,7 +1,6 @@
 # ASTR302 WINTER 2026 Project NEO
 Python code, notebook and data set for University of Washington ASTR 302 WINTER 2026 Project NEO<br>
 See project detail at https://github.com/uw-astr-302/astr-302-w26/tree/main/projects/projectNEO
-# Project NEO
 
 ## Project description
 Near-Earth asteroids (NEAs) are routinely monitored by multiple space agencies for potential future impacts with Earth. Two of the most widely used systems are:
@@ -16,3 +15,5 @@ In this project, data published by NASA and ESA will be collect, cross-match, an
 Publicly available online data:
 - NASA Sentry Risk Table: https://cneos.jpl.nasa.gov/sentry/
 - ESA Aegis Risk List: https://neo.ssa.esa.int/risk-list
+
+## [Link to presentation](https://docs.google.com/presentation/d/1CQHZkLXI20dOoGEox4axPJEj0U-SROlsvBdTEqDd6OM/edit?slide=id.p#slide=id.p)
