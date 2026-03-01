@@ -73,3 +73,17 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 ### Fixed
+
+## 2025-03-01
+
+### Added
+- 2022SD9 close approach
+- Apophis close approach
+- Close approach test
+ 
+### Changed
+- 2010rf12_close_approaches
+- ipcum unique risk, added matrix size comparison 
+
+### Fixed
+- None
